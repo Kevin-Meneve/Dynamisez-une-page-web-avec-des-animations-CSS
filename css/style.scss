@@ -1,0 +1,22 @@
+
+
+.logo{
+  width : 50%;
+  margin : 5% 25% 5% 25%;
+  object-fit: cover;
+  &--footer{
+      width : 20%;
+  }
+}
+
+.localisation{
+  text-align: center;
+  background-color: grey;
+  padding-top : 3px;
+  padding-bottom : 3px;
+}
+
+.resto__image{
+    width : 100px;
+    height : 100px;
+}
