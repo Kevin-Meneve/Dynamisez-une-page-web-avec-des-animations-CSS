@@ -1,10 +1,8 @@
 .logo {
   width: 50%;
   margin: 5% 25% 5% 25%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .logo--footer {
   width: 20%;
 }
@@ -18,6 +16,7 @@
 
 .resto__image {
   width: 100px;
-  height: 100px;
+  height: 120px;
 }
+
 /*# sourceMappingURL=style.css.map */
