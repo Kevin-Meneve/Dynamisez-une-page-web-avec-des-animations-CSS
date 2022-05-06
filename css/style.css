@@ -1,3 +1,11 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.logo, h1 {
+  font-family: Shrikhand, sans-serif;
+}
+
 .logo {
   width: 50%;
   margin: 5% 25% 5% 25%;
@@ -16,7 +24,7 @@
 
 .resto__image {
   width: 100px;
-  height: 120px;
+  height: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
