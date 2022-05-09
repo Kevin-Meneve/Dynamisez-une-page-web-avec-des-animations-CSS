@@ -1,0 +1,40 @@
+.exploration{
+    background-color: rgb(246, 246, 246);
+    &__localisation{
+        .fa-location-dot{
+            margin-right: 15px;
+        }
+        text-align: center;
+        background-color: rgb(234, 234, 234);
+        padding : 1px 15px 1px 0px;
+        font-weight: bold;
+    }
+    &__title{
+        margin-right : 50px;
+        margin-left : 45px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    &__text{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    &__button{
+        background-image : linear-gradient(0deg,$colour_primary,$colour_secondary);
+        color : white;
+        font-weight: bold;
+        font-size : 80%;
+        cursor : pointer;
+        border-radius: 100px;
+        border : 0px solid black;
+        width : 50%;
+        margin-left: 25%;
+        height : 40px;
+        margin-bottom: 35px;
+        margin-top: 5px;
+    }
+}
+
+
+

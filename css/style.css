@@ -2,24 +2,68 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.logo, h1 {
+.logo, h1, h2 {
   font-family: Shrikhand, sans-serif;
 }
 
-.logo {
-  width: 50%;
-  margin: 5% 25% 5% 25%;
-  object-fit: cover;
-}
-.logo--footer {
-  width: 20%;
+h1 {
+  font-size: 140%;
+  font-weight: bold;
 }
 
-.localisation {
+header {
+  height: 60px;
+  width: 100%;
+}
+
+.header__logo {
+  width: 45%;
+  margin-left: 27.5%;
+  margin-top: 15px;
+  object-fit: cover;
+}
+
+footer {
+  height: 500px;
+  width: 100%;
+}
+
+.exploration {
+  background-color: rgb(246, 246, 246);
+}
+.exploration__localisation {
   text-align: center;
-  background-color: grey;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  background-color: rgb(234, 234, 234);
+  padding: 1px 15px 1px 0px;
+  font-weight: bold;
+}
+.exploration__localisation .fa-location-dot {
+  margin-right: 15px;
+}
+.exploration__title {
+  margin-right: 50px;
+  margin-left: 45px;
+  margin-top: 30px;
+  text-align: center;
+}
+.exploration__text {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+.exploration__button {
+  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+  color: white;
+  font-weight: bold;
+  font-size: 80%;
+  cursor: pointer;
+  border-radius: 100px;
+  border: 0px solid black;
+  width: 50%;
+  margin-left: 25%;
+  height: 40px;
+  margin-bottom: 35px;
+  margin-top: 5px;
 }
 
 .resto__image {
