@@ -1,4 +1,10 @@
-footer{
-    height : 500px;
-    width : 100%;
+.footer{
+    height : 200px;
+    width : 95%;
+    background-color: black;
+    color : white;
+    padding-left: 5%;
+    &__icone{
+        margin-right: 10px;
+    }
 }
