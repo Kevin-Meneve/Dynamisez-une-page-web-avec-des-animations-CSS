@@ -153,6 +153,30 @@ header {
 .restaurant__card__unlike:hover {
   display: none;
 }
+.restaurant__card__like {
+  font-size: 200%;
+  position: relative;
+  left: 244px;
+  bottom: 40px;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.restaurant__card__like:hover {
+  font-size: 200%;
+  position: relative;
+  left: 244px;
+  bottom: 40px;
+  background: linear-gradient(162deg, #FF79DA 0%, #9356DC 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+a:link {
+  text-decoration: none;
+}
 
 .restaurants__image {
   width: 100%;
@@ -217,6 +241,7 @@ header {
   margin-left: 10px;
   margin-top: 0px;
   font-size: 90%;
+  color: grey;
 }
 .menu__meal__price {
   position: relative;
