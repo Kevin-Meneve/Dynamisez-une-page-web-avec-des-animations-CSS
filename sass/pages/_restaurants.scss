@@ -15,8 +15,40 @@
     position: relative;
     bottom : 60px;
     cursor : pointer;
-    &__name{
-        margin-left: 10px;
+    &__heading{
+        display :flex;
+        justify-content: flex-start;
+
+        &__name{
+            margin-left: 10px;
+        }
+        &__like{
+            font-size: 200%;
+            position : relative;
+            left : 68px;
+            top : 10px;
+            transition: opacity 250ms;
+            opacity: 0;
+            &:hover{
+                background: linear-gradient(162deg, $colour_secondary 0%, $colour_primary 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                opacity: 1;
+            }
+        }
+        &__unlike{
+            font-size: 200%;
+            position : relative;
+            left : 100px;
+            top : 10px;
+            color : black;
+            transition : opacity 250ms;
+            opacity: 1;
+            &:hover{
+                opacity: 0;
+            }
+        }
     }
     &__title{
         margin-left: 10px;

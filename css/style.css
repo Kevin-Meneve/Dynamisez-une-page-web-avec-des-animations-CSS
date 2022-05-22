@@ -271,9 +271,6 @@ btn {
 }
 .restaurant__card__like:hover {
   font-size: 200%;
-  position: relative;
-  left: 244px;
-  bottom: 40px;
   background: linear-gradient(162deg, #FF79DA 0%, #9356DC 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -304,8 +301,39 @@ a:link {
   bottom: 60px;
   cursor: pointer;
 }
-.menu__name {
+.menu__heading {
+  display: flex;
+  justify-content: flex-start;
+}
+.menu__heading__name {
   margin-left: 10px;
+}
+.menu__heading__like {
+  font-size: 200%;
+  position: relative;
+  left: 68px;
+  top: 10px;
+  transition: opacity 250ms;
+  opacity: 0;
+}
+.menu__heading__like:hover {
+  background: linear-gradient(162deg, #FF79DA 0%, #9356DC 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 1;
+}
+.menu__heading__unlike {
+  font-size: 200%;
+  position: relative;
+  left: 100px;
+  top: 10px;
+  color: black;
+  transition: opacity 250ms;
+  opacity: 1;
+}
+.menu__heading__unlike:hover {
+  opacity: 0;
 }
 .menu__title {
   margin-left: 10px;

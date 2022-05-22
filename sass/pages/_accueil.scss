@@ -151,9 +151,6 @@
             opacity: 0;
             &:hover{
                 font-size: 200%;
-                position : relative;
-                left : 244px;
-                bottom: 40px;
                 background: linear-gradient(162deg, $colour_secondary 0%, $colour_primary 100%);
                 background-clip: text;
                 -webkit-background-clip: text;
