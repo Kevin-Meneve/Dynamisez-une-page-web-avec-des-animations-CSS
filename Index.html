@@ -23,6 +23,11 @@
         
     </head>
     <body>
+        <div class="loader">
+            <div class="loader__dot dot1"></div>
+            <div class="loader__dot dot2"></div>
+            <div class="loader__dot dot3"></div>
+        </div>
         <header class="accueil__header">
             <img class="header__logo" src="/images/logo/ohmyfood.png" alt="logo ohmyfood"/>
         </header>
@@ -32,19 +37,19 @@
                     <p class="exploration__localisation"><i class="fa-solid fa-location-dot"></i>Paris, Belleville</p>
                 </div>
                 <div>
-                    <h1 class="exploration__title">Réservez le menu qui vous convient</h1>
+                    <h2 class="exploration__title">Réservez le menu qui vous convient</h2>
                     <p class ="exploration__text">Découvrez des restaurants d'exception, selectionnés par nos soins.</p>
-                    <a href="#"></a><button class="exploration__button">Explorez nos restaurants</button></a>
+                    <a href="#"><button href="#" class="exploration__button">Explorez nos restaurants</button></a>
                 </div>
             </section>
             <section class="fonctionnement">
-                <h1 class="fonctionnement__title">Fonctionnement</h1>
+                <h2 class="fonctionnement__title">Fonctionnement</h2>
                 <button class="fonctionnement__button"><span class="fonctionnement__button__number">1</span><i class="fa-solid fa-mobile-screen-button fonctionnement__button__icone"></i>Choisissez un restaurant</button>
-                <button class="fonctionnement__button"><span class="fonctionnement__button__number">2</span><i class="fa-solid fa-list fonctionnement__button__icone"></i>Composez votre menu</i></button>
-                <button class="fonctionnement__button"><span class="fonctionnement__button__number">3</span><i class="fa-solid fa-store fonctionnement__button__icone"></i>Deguestez au restaurant</i></button>
+                <button class="fonctionnement__button"><span class="fonctionnement__button__number">2</span><i class="fa-solid fa-list fonctionnement__button__icone"></i>Composez votre menu</button>
+                <button class="fonctionnement__button"><span class="fonctionnement__button__number">3</span><i class="fa-solid fa-store fonctionnement__button__icone"></i>Deguestez au restaurant</button>
             </section>
             <section class="restaurant">
-                <h1 class="restaurant__title">Restaurants</h1>
+                <h2 class="restaurant__title">Restaurants</h2>
                 <div class="restaurant__card" >
                     <a href="restaurants/la_palette_du_gout.html">
                         <img class="restaurant__card__image" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Restaurant La palette du goût" />
@@ -52,6 +57,7 @@
                         <p class="restaurant__card__localisation">Ménilmontant</p>
                         <i class="fa-regular fa-heart restaurant__card__unlike"></i>
                         <i class="fa-solid fa-heart restaurant__card__like"></i>
+                        <span class="restaurant__card__new">Nouveau</span>
                     </a>
                 </div>
                 <div class="restaurant__card">
@@ -61,6 +67,7 @@
                         <p class="restaurant__card__localisation">Charonne</p>
                         <i class="fa-regular fa-heart restaurant__card__unlike"></i>
                         <i class="fa-solid fa-heart restaurant__card__like"></i>
+                        <span class="restaurant__card__new">Nouveau</span>
                     </a>
                 </div>
                 <div class="restaurant__card">
@@ -84,11 +91,11 @@
             </section>
         </main>
         <footer class="footer">
-            <img class="footer_logo" src="/images/logo/ohmyfood@2x.svg" alt="logo ohmyfood"/>
+            <p class="logo">ohmyfood</p>
             <p><i class="fa-utensils fas footer__icon footer__icone"></i>Proposez un restaurant</p>
             <p><i class="fa-solid fa-handshake-angle footer__icone"></i>Devenir partenaire</p>
             <p>Mentions legales</p>
-            <p>Contact</p>
+            <p><a href="mailto:ohmyfood@bidule.fr">Contact</a></p>
         </footer>
     </body>
 </html>

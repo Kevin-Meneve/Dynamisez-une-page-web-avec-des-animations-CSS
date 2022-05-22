@@ -14,6 +14,7 @@
     padding-top: 25px;
     position: relative;
     bottom : 60px;
+    cursor : pointer;
     &__name{
         margin-left: 10px;
     }
@@ -21,10 +22,18 @@
         margin-left: 10px;
         font-size: 100%;
         color : grey;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        padding-bottom : 5px;
+        border-bottom : 3px solid $colour-tertiary;
+        width : 40px;
+    }
+    &__subtitle{
+        margin-left: 10px;
+        color: $colour-tertiary;
+        width: 10%;
     }
     &__command{
-        background-image : linear-gradient(0deg,$colour_primary,$colour_secondary);
+        background-image : linear-gradient(320deg,$colour_primary,$colour_secondary);
         color : white;
         font-weight: bold;
         font-size : 80%;
@@ -34,37 +43,124 @@
         width : 50%;
         margin-left: 25%;
         height : 40px;
-        margin-bottom: 35px;
         margin-top: 35px;
+        &:hover{
+            box-shadow: 1px 1px 5px grey;
+            background-color: #fff;
+            opacity: 0.90;
+        }
     }
     &__meal{
         background-color: white;
-        box-shadow: 0px 0px 5px gray;
+        box-shadow: 0px 1px 5px lightgrey;
         width: 90%;
         height: 65px;
         margin-left: 5%;
         border-radius: 20px;
         display:flex;
-        justify-content: flex-start;
-        flex-direction: column;
+        justify-content: flex-end;
         margin-bottom: 20px;
-        &__name{
-            font-weight: bold;
-            margin-left : 10px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+        animation : itemAppear .6s;
+        animation-timing-function : ease-in-out;
+        animation-fill-mode: both;
+        overflow: hidden;
+        
+        &--1{
+            animation-delay: 0s;
         }
-        &__description{
-            margin-left: 10px;
-            margin-top: 0px;
-            font-size: 90%;
-            color : grey;
+        &--2{
+            animation-delay: 0.05s;
+        }
+        &--3{
+            animation-delay: 0.1s;
+        }
+        &--4{
+            animation-delay: 0.15s;
+        }
+        &--5{
+            animation-delay: 0.20s;
+        }
+        &--6{
+            animation-delay: 0.25s;
+        }
+        &--7{
+            animation-delay: 0.30s;
+        }
+        &--8{
+            animation-delay: 0.35s;
+        }
+        &--9{
+            animation-delay: 0.40s;
+        }
+        &--10{
+            animation-delay: 0.45s;
+        }
+        &__info{
+            display : flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            width : 100%;
+            height : 100%;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            &__name{
+                font-weight: bold;
+                margin-left : 10px;
+                margin-top: 12px;
+                margin-bottom: 8px;
+            }
+            &__description{
+                margin-left: 10px;
+                margin-top: 0px;
+                font-size: 90%;
+                margin-bottom: 0px;
+                color : grey;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
         }
         &__price{
-            position : relative;
-            left : 290px;
-            bottom : 55px;
+            display : flex;
+            justify-content: flex-end;
             font-weight: bold;
+            width : 10%;
+            height : 100%;
+            margin-top: 36px;
+            margin-right: 15px;
+            padding-left: 5px;
+        }
+        &__confirm{
+            background-color: $colour-tertiary;
+            text-align: center;
+            vertical-align: middle;
+            height : 100%;
+            width : 80px;
+            padding-top: 22px;
+            padding-left: 10px;
+            margin-right: -80px;
+            &__icon{
+                background-color: white;
+                border-radius: 50%;
+                width: 24px;
+                padding-top: 4px;
+                padding-bottom: 3px;
+                padding-right: 1px;
+                margin-left: 20%;
+                color : $colour-tertiary
+            }
+        }
+        /* gestion de l'animation check confirmation*/
+        &:hover .menu__meal__confirm{
+            animation : confirmation 1s;
+            animation-timing-function : ease-in-out;
+            animation-fill-mode: both;
+        }
+        &:hover .menu__meal__confirm__icon{
+            animation : turn 1s;
+            animation-timing-function : ease-in-out;
+            animation-fill-mode: both;
         }
     }
 }
