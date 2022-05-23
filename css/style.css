@@ -304,14 +304,12 @@ a:link {
 .menu__heading {
   display: flex;
   justify-content: flex-start;
-}
-.menu__heading__name {
-  margin-left: 10px;
+  margin-left: 5%;
 }
 .menu__heading__like {
   font-size: 200%;
   position: relative;
-  left: 68px;
+  left: 38px;
   top: 10px;
   transition: opacity 250ms;
   opacity: 0;
@@ -326,7 +324,7 @@ a:link {
 .menu__heading__unlike {
   font-size: 200%;
   position: relative;
-  left: 100px;
+  left: 70px;
   top: 10px;
   color: black;
   transition: opacity 250ms;
@@ -336,7 +334,7 @@ a:link {
   opacity: 0;
 }
 .menu__title {
-  margin-left: 10px;
+  margin-left: 5%;
   font-size: 100%;
   color: grey;
   margin-bottom: 15px;

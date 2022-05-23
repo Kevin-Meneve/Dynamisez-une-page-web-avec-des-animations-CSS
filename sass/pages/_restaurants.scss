@@ -18,14 +18,11 @@
     &__heading{
         display :flex;
         justify-content: flex-start;
-
-        &__name{
-            margin-left: 10px;
-        }
+        margin-left: 5%;
         &__like{
             font-size: 200%;
             position : relative;
-            left : 68px;
+            left : 38px;
             top : 10px;
             transition: opacity 250ms;
             opacity: 0;
@@ -40,7 +37,7 @@
         &__unlike{
             font-size: 200%;
             position : relative;
-            left : 100px;
+            left : 70px;
             top : 10px;
             color : black;
             transition : opacity 250ms;
@@ -51,7 +48,7 @@
         }
     }
     &__title{
-        margin-left: 10px;
+        margin-left: 5%;
         font-size: 100%;
         color : grey;
         margin-bottom: 15px;
