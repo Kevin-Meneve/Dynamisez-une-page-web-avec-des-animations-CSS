@@ -5,10 +5,16 @@ header
 }
 
 .header__logo{
-    width : 45%;
+    width : 170px;
     margin-left: 27.5%;
     margin-top: 15px;
     object-fit: cover;
+    @include tablette-only{
+        margin-left: 39%;
+    }
+    @include computer-only{
+        margin-left: 41%;
+    }
 }
 
 .header__back__homepage{
