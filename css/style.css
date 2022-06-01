@@ -174,6 +174,18 @@ btn {
   background-color: #fff;
   opacity: 0.9;
 }
+@media all and (min-width: 769px) and (max-width: 991px) {
+  .exploration__button {
+    width: 35%;
+    margin-left: 32.5%;
+  }
+}
+@media all and (min-width: 992px) {
+  .exploration__button {
+    width: 30%;
+    margin-left: 35%;
+  }
+}
 
 .fonctionnement__title {
   margin-left: 5%;
@@ -327,6 +339,16 @@ a:link {
   height: 300px;
   object-fit: cover;
 }
+@media all and (min-width: 769px) and (max-width: 991px) {
+  .restaurants__image {
+    height: 400px;
+  }
+}
+@media all and (min-width: 992px) {
+  .restaurants__image {
+    height: 450px;
+  }
+}
 
 .background {
   background-color: rgb(246, 246, 246);
@@ -404,6 +426,18 @@ a:link {
   box-shadow: 1px 1px 5px grey;
   background-color: #fff;
   opacity: 0.9;
+}
+@media all and (min-width: 769px) and (max-width: 991px) {
+  .menu__command {
+    width: 35%;
+    margin-left: 32.5%;
+  }
+}
+@media all and (min-width: 992px) {
+  .menu__command {
+    width: 30%;
+    margin-left: 35%;
+  }
 }
 .menu__meal {
   background-color: white;
