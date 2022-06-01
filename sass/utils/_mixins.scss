@@ -1,9 +1,12 @@
+
+// MEDIA QUERIES 
 @mixin tablette-only {
     @media all and (min-width: 769px) and (max-width : 991px){
         @content;
     }
 }
 
+// MEDIA QUERIES 
 @mixin computer-only {
     @media all and (min-width : 992px){
         @content;
