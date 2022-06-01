@@ -121,6 +121,12 @@
             padding : 7px 12px 7px 12px;
             left : 175px;
             bottom : 240px;
+            @include tablette-only{
+                left : 550px;
+            }
+            @include computer-only{
+                left : 700px;
+            }
         }
         &__localisation{
             margin-left: 10px;
@@ -140,6 +146,12 @@
             &:hover{
                 opacity: 0;
             }
+            @include tablette-only{
+                left : 650px;
+            }
+            @include computer-only{
+                left : 800px;
+            }
         }
         &__like{
             font-size: 200%;
@@ -155,6 +167,12 @@
                 -webkit-background-clip: text;
                 color: transparent;
                 opacity: 1;
+            }
+            @include tablette-only{
+                left : 614px;
+            }
+            @include computer-only{
+                left : 764px;
             }
         }
     }

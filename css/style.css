@@ -252,6 +252,16 @@ btn {
   left: 175px;
   bottom: 240px;
 }
+@media all and (min-width: 769px) and (max-width: 991px) {
+  .restaurant__card__new {
+    left: 550px;
+  }
+}
+@media all and (min-width: 992px) {
+  .restaurant__card__new {
+    left: 700px;
+  }
+}
 .restaurant__card__localisation {
   margin-left: 10px;
   margin-top: 0px;
@@ -271,6 +281,16 @@ btn {
 .restaurant__card__unlike:hover {
   opacity: 0;
 }
+@media all and (min-width: 769px) and (max-width: 991px) {
+  .restaurant__card__unlike {
+    left: 650px;
+  }
+}
+@media all and (min-width: 992px) {
+  .restaurant__card__unlike {
+    left: 800px;
+  }
+}
 .restaurant__card__like {
   font-size: 200%;
   position: relative;
@@ -286,6 +306,16 @@ btn {
   -webkit-background-clip: text;
   color: transparent;
   opacity: 1;
+}
+@media all and (min-width: 769px) and (max-width: 991px) {
+  .restaurant__card__like {
+    left: 614px;
+  }
+}
+@media all and (min-width: 992px) {
+  .restaurant__card__like {
+    left: 764px;
+  }
 }
 
 a:link {
