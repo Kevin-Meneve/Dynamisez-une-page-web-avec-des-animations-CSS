@@ -15,6 +15,9 @@ header
     @include computer-only{
         margin-left: 41%;
     }
+    @include litle-mobile {
+        margin-left: 20%;
+    }
 }
 
 .header__back__homepage{

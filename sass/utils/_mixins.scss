@@ -12,3 +12,11 @@
         @content;
     }
 }
+
+
+// MEDIA QUERIES 
+@mixin litle-mobile {
+    @media all and (max-width : 325px){
+        @content;
+    }
+}

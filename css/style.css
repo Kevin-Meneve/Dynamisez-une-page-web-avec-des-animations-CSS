@@ -68,6 +68,11 @@ header {
     margin-left: 41%;
   }
 }
+@media all and (max-width: 325px) {
+  .header__logo {
+    margin-left: 20%;
+  }
+}
 
 .header__back__homepage {
   position: absolute;
@@ -279,6 +284,11 @@ btn {
     left: 700px;
   }
 }
+@media all and (max-width: 325px) {
+  .restaurant__card__new {
+    left: 85px;
+  }
+}
 .restaurant__card__localisation {
   margin-left: 10px;
   margin-top: 0px;
@@ -308,6 +318,11 @@ btn {
     left: 800px;
   }
 }
+@media all and (max-width: 325px) {
+  .restaurant__card__unlike {
+    left: 205px;
+  }
+}
 .restaurant__card__like {
   font-size: 200%;
   position: relative;
@@ -317,12 +332,12 @@ btn {
   opacity: 0;
 }
 .restaurant__card__like:hover {
+  opacity: 1;
   font-size: 200%;
   background: linear-gradient(162deg, #FF79DA 0%, #9356DC 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  opacity: 1;
 }
 @media all and (min-width: 769px) and (max-width: 991px) {
   .restaurant__card__like {
@@ -332,6 +347,11 @@ btn {
 @media all and (min-width: 992px) {
   .restaurant__card__like {
     left: 764px;
+  }
+}
+@media all and (max-width: 325px) {
+  .restaurant__card__like {
+    left: 169px;
   }
 }
 
